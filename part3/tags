@@ -1,0 +1,27 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+FreePart	main.py	/^class FreePart:$/;"	c
+PROCESS_NUM	main.py	/^    PROCESS_NUM = 10$/;"	v	class:ProcessList
+PartList	main.py	/^class PartList:$/;"	c
+ProcessList	main.py	/^class ProcessList:$/;"	c
+Running	main.py	/^def Running():$/;"	f
+WHOLE_MEM	main.py	/^    WHOLE_MEM = 256$/;"	v	class:PartList
+__author__	main.py	/^__author__ = "svtter"$/;"	v
+__init__	main.py	/^    def __init__(self):$/;"	m	class:PartList
+__init__	main.py	/^    def __init__(self):$/;"	m	class:ProcessList
+__init__	main.py	/^    def __init__(self, length, start, status):$/;"	m	class:FreePart
+assign	main.py	/^    def assign(self, usize):$/;"	m	class:PartList
+checkEmpty	main.py	/^    def checkEmpty(self):$/;"	m	class:PartList
+debug	main.py	/^    def debug(self):$/;"	m	class:PartList
+findFree	main.py	/^    def findFree(self, usize):$/;"	m	class:PartList
+genRandList	main.py	/^    def genRandList(self):$/;"	m	class:ProcessList
+getUsize	main.py	/^    def getUsize(self):$/;"	m	class:ProcessList
+last	main.py	/^    def last(self):$/;"	m	class:FreePart
+output	main.py	/^    def output(self):$/;"	m	class:FreePart
+output	main.py	/^    def output(self):$/;"	m	class:PartList
+random	main.py	/^import random$/;"	i
+resize	main.py	/^    def resize(self):$/;"	m	class:PartList

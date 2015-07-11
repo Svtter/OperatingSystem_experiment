@@ -1,0 +1,981 @@
+Generate Random List (outside memory):
+Name:    Job_0 | proceedingTime:        4 | achieveTime:        1 
+Name:    Job_1 | proceedingTime:        1 | achieveTime:        3 
+Name:    Job_2 | proceedingTime:        2 | achieveTime:        2 
+Name:    Job_3 | proceedingTime:        2 | achieveTime:        2 
+Name:    Job_4 | proceedingTime:        1 | achieveTime:        4 
+Name:    Job_5 | proceedingTime:        2 | achieveTime:        0 
+Name:    Job_6 | proceedingTime:        3 | achieveTime:        1 
+Name:    Job_7 | proceedingTime:        4 | achieveTime:        2 
+
+
+
+[CurTime]: 0
+The dispatch list: 
+* Job_5 is running...
+Name:    Job_5 | proceedingTime:        2 | achieveTime:        0 
+
+
+
+[CurTime]: 1
+The dispatch list: 
+* Job_5 is running...
+Name:    Job_5 | proceedingTime:        2 | achieveTime:        0 
+Name:    Job_6 | proceedingTime:        3 | achieveTime:        1 
+Name:    Job_0 | proceedingTime:        4 | achieveTime:        1 
+
+
+
+[CurTime]: 2
+The dispatch list: 
+* Job_5 is finished.
+* Job_6 is running...
+Name:    Job_6 | proceedingTime:        3 | achieveTime:        1 
+Name:    Job_0 | proceedingTime:        4 | achieveTime:        1 
+Name:    Job_2 | proceedingTime:        2 | achieveTime:        2 
+Name:    Job_3 | proceedingTime:        2 | achieveTime:        2 
+Name:    Job_7 | proceedingTime:        4 | achieveTime:        2 
+
+
+
+[CurTime]: 3
+The dispatch list: 
+* Job_6 is running...
+Name:    Job_6 | proceedingTime:        3 | achieveTime:        1 
+Name:    Job_0 | proceedingTime:        4 | achieveTime:        1 
+Name:    Job_2 | proceedingTime:        2 | achieveTime:        2 
+Name:    Job_3 | proceedingTime:        2 | achieveTime:        2 
+Name:    Job_7 | proceedingTime:        4 | achieveTime:        2 
+Name:    Job_1 | proceedingTime:        1 | achieveTime:        3 
+
+
+
+[CurTime]: 4
+The dispatch list: 
+* Job_6 is running...
+Name:    Job_6 | proceedingTime:        3 | achieveTime:        1 
+Name:    Job_0 | proceedingTime:        4 | achieveTime:        1 
+Name:    Job_2 | proceedingTime:        2 | achieveTime:        2 
+Name:    Job_3 | proceedingTime:        2 | achieveTime:        2 
+Name:    Job_7 | proceedingTime:        4 | achieveTime:        2 
+Name:    Job_1 | proceedingTime:        1 | achieveTime:        3 
+Name:    Job_4 | proceedingTime:        1 | achieveTime:        4 
+
+
+
+[CurTime]: 5
+The dispatch list: 
+* Job_6 is finished.
+* Job_0 is running...
+Name:    Job_0 | proceedingTime:        4 | achieveTime:        1 
+Name:    Job_2 | proceedingTime:        2 | achieveTime:        2 
+Name:    Job_3 | proceedingTime:        2 | achieveTime:        2 
+Name:    Job_7 | proceedingTime:        4 | achieveTime:        2 
+Name:    Job_1 | proceedingTime:        1 | achieveTime:        3 
+Name:    Job_4 | proceedingTime:        1 | achieveTime:        4 
+
+
+
+[CurTime]: 6
+The dispatch list: 
+* Job_0 is running...
+Name:    Job_0 | proceedingTime:        4 | achieveTime:        1 
+Name:    Job_2 | proceedingTime:        2 | achieveTime:        2 
+Name:    Job_3 | proceedingTime:        2 | achieveTime:        2 
+Name:    Job_7 | proceedingTime:        4 | achieveTime:        2 
+Name:    Job_1 | proceedingTime:        1 | achieveTime:        3 
+Name:    Job_4 | proceedingTime:        1 | achieveTime:        4 
+
+
+
+[CurTime]: 7
+The dispatch list: 
+* Job_0 is running...
+Name:    Job_0 | proceedingTime:        4 | achieveTime:        1 
+Name:    Job_2 | proceedingTime:        2 | achieveTime:        2 
+Name:    Job_3 | proceedingTime:        2 | achieveTime:        2 
+Name:    Job_7 | proceedingTime:        4 | achieveTime:        2 
+Name:    Job_1 | proceedingTime:        1 | achieveTime:        3 
+Name:    Job_4 | proceedingTime:        1 | achieveTime:        4 
+
+
+
+[CurTime]: 8
+The dispatch list: 
+* Job_0 is running...
+Name:    Job_0 | proceedingTime:        4 | achieveTime:        1 
+Name:    Job_2 | proceedingTime:        2 | achieveTime:        2 
+Name:    Job_3 | proceedingTime:        2 | achieveTime:        2 
+Name:    Job_7 | proceedingTime:        4 | achieveTime:        2 
+Name:    Job_1 | proceedingTime:        1 | achieveTime:        3 
+Name:    Job_4 | proceedingTime:        1 | achieveTime:        4 
+
+
+
+[CurTime]: 9
+The dispatch list: 
+* Job_0 is finished.
+* Job_2 is running...
+Name:    Job_2 | proceedingTime:        2 | achieveTime:        2 
+Name:    Job_3 | proceedingTime:        2 | achieveTime:        2 
+Name:    Job_7 | proceedingTime:        4 | achieveTime:        2 
+Name:    Job_1 | proceedingTime:        1 | achieveTime:        3 
+Name:    Job_4 | proceedingTime:        1 | achieveTime:        4 
+
+
+
+[CurTime]: 10
+The dispatch list: 
+* Job_2 is running...
+Name:    Job_2 | proceedingTime:        2 | achieveTime:        2 
+Name:    Job_3 | proceedingTime:        2 | achieveTime:        2 
+Name:    Job_7 | proceedingTime:        4 | achieveTime:        2 
+Name:    Job_1 | proceedingTime:        1 | achieveTime:        3 
+Name:    Job_4 | proceedingTime:        1 | achieveTime:        4 
+
+
+
+[CurTime]: 11
+The dispatch list: 
+* Job_2 is finished.
+* Job_3 is running...
+Name:    Job_3 | proceedingTime:        2 | achieveTime:        2 
+Name:    Job_7 | proceedingTime:        4 | achieveTime:        2 
+Name:    Job_1 | proceedingTime:        1 | achieveTime:        3 
+Name:    Job_4 | proceedingTime:        1 | achieveTime:        4 
+
+
+
+[CurTime]: 12
+The dispatch list: 
+* Job_3 is running...
+Name:    Job_3 | proceedingTime:        2 | achieveTime:        2 
+Name:    Job_7 | proceedingTime:        4 | achieveTime:        2 
+Name:    Job_1 | proceedingTime:        1 | achieveTime:        3 
+Name:    Job_4 | proceedingTime:        1 | achieveTime:        4 
+
+
+
+[CurTime]: 13
+The dispatch list: 
+* Job_3 is finished.
+* Job_7 is running...
+Name:    Job_7 | proceedingTime:        4 | achieveTime:        2 
+Name:    Job_1 | proceedingTime:        1 | achieveTime:        3 
+Name:    Job_4 | proceedingTime:        1 | achieveTime:        4 
+
+
+
+[CurTime]: 14
+The dispatch list: 
+* Job_7 is running...
+Name:    Job_7 | proceedingTime:        4 | achieveTime:        2 
+Name:    Job_1 | proceedingTime:        1 | achieveTime:        3 
+Name:    Job_4 | proceedingTime:        1 | achieveTime:        4 
+
+
+
+[CurTime]: 15
+The dispatch list: 
+* Job_7 is running...
+Name:    Job_7 | proceedingTime:        4 | achieveTime:        2 
+Name:    Job_1 | proceedingTime:        1 | achieveTime:        3 
+Name:    Job_4 | proceedingTime:        1 | achieveTime:        4 
+
+
+
+[CurTime]: 16
+The dispatch list: 
+* Job_7 is running...
+Name:    Job_7 | proceedingTime:        4 | achieveTime:        2 
+Name:    Job_1 | proceedingTime:        1 | achieveTime:        3 
+Name:    Job_4 | proceedingTime:        1 | achieveTime:        4 
+
+
+
+[CurTime]: 17
+The dispatch list: 
+* Job_7 is finished.
+* Job_1 is running...
+Name:    Job_1 | proceedingTime:        1 | achieveTime:        3 
+Name:    Job_4 | proceedingTime:        1 | achieveTime:        4 
+
+
+
+[CurTime]: 18
+The dispatch list: 
+* Job_1 is finished.
+* Job_4 is running...
+Name:    Job_4 | proceedingTime:        1 | achieveTime:        4 
+
+
+
+[CurTime]: 19
+The dispatch list: 
+* Job_4 is finished.
+No more jobs.
+-------------------------------------------------------------
+Generate Random List (outside memory):
+Name:    Job_0 | proceedingTime:        3 | achieveTime:        0 
+Name:    Job_1 | proceedingTime:        4 | achieveTime:        2 
+Name:    Job_2 | proceedingTime:        5 | achieveTime:        2 
+Name:    Job_3 | proceedingTime:        4 | achieveTime:        4 
+Name:    Job_4 | proceedingTime:        4 | achieveTime:        1 
+Name:    Job_5 | proceedingTime:        3 | achieveTime:        4 
+Name:    Job_6 | proceedingTime:        2 | achieveTime:        4 
+Name:    Job_7 | proceedingTime:        3 | achieveTime:        3 
+
+Pool queue: 
+Name:    Job_0 | proceedingTime:        3 | achieveTime:        0 
+Name:    Job_4 | proceedingTime:        4 | achieveTime:        1 
+Name:    Job_1 | proceedingTime:        4 | achieveTime:        2 
+Name:    Job_2 | proceedingTime:        5 | achieveTime:        2 
+Name:    Job_7 | proceedingTime:        3 | achieveTime:        3 
+Name:    Job_6 | proceedingTime:        2 | achieveTime:        4 
+Name:    Job_5 | proceedingTime:        3 | achieveTime:        4 
+Name:    Job_3 | proceedingTime:        4 | achieveTime:        4 
+
+
+
+---------------------------------------
+[CurTime]: 0
+[Channels_num]: 3
+---------------------------------------
+The Ready list: 
+* Job_0 is running...
+Name:    Job_0 | proceedingTime:        3 | achieveTime:        0 
+
+Pool List: 
+Name:    Job_4 | proceedingTime:        4 | achieveTime:        1 
+Name:    Job_1 | proceedingTime:        4 | achieveTime:        2 
+Name:    Job_2 | proceedingTime:        5 | achieveTime:        2 
+Name:    Job_7 | proceedingTime:        3 | achieveTime:        3 
+Name:    Job_6 | proceedingTime:        2 | achieveTime:        4 
+Name:    Job_5 | proceedingTime:        3 | achieveTime:        4 
+Name:    Job_3 | proceedingTime:        4 | achieveTime:        4 
+
+
+
+---------------------------------------
+[CurTime]: 1
+[Channels_num]: 3
+---------------------------------------
+The Ready list: 
+* Job_0 is running...
+Name:    Job_0 | proceedingTime:        3 | achieveTime:        0 
+Name:    Job_4 | proceedingTime:        4 | achieveTime:        1 
+
+Pool List: 
+Name:    Job_1 | proceedingTime:        4 | achieveTime:        2 
+Name:    Job_2 | proceedingTime:        5 | achieveTime:        2 
+Name:    Job_7 | proceedingTime:        3 | achieveTime:        3 
+Name:    Job_6 | proceedingTime:        2 | achieveTime:        4 
+Name:    Job_5 | proceedingTime:        3 | achieveTime:        4 
+Name:    Job_3 | proceedingTime:        4 | achieveTime:        4 
+
+
+
+---------------------------------------
+[CurTime]: 2
+[Channels_num]: 3
+---------------------------------------
+The Ready list: 
+* Job_0 is running...
+Name:    Job_0 | proceedingTime:        3 | achieveTime:        0 
+Name:    Job_4 | proceedingTime:        4 | achieveTime:        1 
+Name:    Job_1 | proceedingTime:        4 | achieveTime:        2 
+
+Pool List: 
+Name:    Job_2 | proceedingTime:        5 | achieveTime:        2 
+Name:    Job_7 | proceedingTime:        3 | achieveTime:        3 
+Name:    Job_6 | proceedingTime:        2 | achieveTime:        4 
+Name:    Job_5 | proceedingTime:        3 | achieveTime:        4 
+Name:    Job_3 | proceedingTime:        4 | achieveTime:        4 
+
+
+
+---------------------------------------
+[CurTime]: 3
+[Channels_num]: 3
+---------------------------------------
+The Ready list: 
+* Job_0 is finished.
+* Job_4 is running...
+Name:    Job_4 | proceedingTime:        4 | achieveTime:        1 
+Name:    Job_1 | proceedingTime:        4 | achieveTime:        2 
+
+Pool List: 
+Name:    Job_2 | proceedingTime:        5 | achieveTime:        2 
+Name:    Job_7 | proceedingTime:        3 | achieveTime:        3 
+Name:    Job_6 | proceedingTime:        2 | achieveTime:        4 
+Name:    Job_5 | proceedingTime:        3 | achieveTime:        4 
+Name:    Job_3 | proceedingTime:        4 | achieveTime:        4 
+
+
+
+---------------------------------------
+[CurTime]: 4
+[Channels_num]: 3
+---------------------------------------
+The Ready list: 
+* Job_4 is running...
+Name:    Job_4 | proceedingTime:        4 | achieveTime:        1 
+Name:    Job_1 | proceedingTime:        4 | achieveTime:        2 
+Name:    Job_2 | proceedingTime:        5 | achieveTime:        2 
+
+Pool List: 
+Name:    Job_7 | proceedingTime:        3 | achieveTime:        3 
+Name:    Job_6 | proceedingTime:        2 | achieveTime:        4 
+Name:    Job_5 | proceedingTime:        3 | achieveTime:        4 
+Name:    Job_3 | proceedingTime:        4 | achieveTime:        4 
+
+
+
+---------------------------------------
+[CurTime]: 5
+[Channels_num]: 3
+---------------------------------------
+The Ready list: 
+* Job_4 is running...
+Name:    Job_4 | proceedingTime:        4 | achieveTime:        1 
+Name:    Job_1 | proceedingTime:        4 | achieveTime:        2 
+Name:    Job_2 | proceedingTime:        5 | achieveTime:        2 
+
+Pool List: 
+Name:    Job_7 | proceedingTime:        3 | achieveTime:        3 
+Name:    Job_6 | proceedingTime:        2 | achieveTime:        4 
+Name:    Job_5 | proceedingTime:        3 | achieveTime:        4 
+Name:    Job_3 | proceedingTime:        4 | achieveTime:        4 
+
+
+
+---------------------------------------
+[CurTime]: 6
+[Channels_num]: 3
+---------------------------------------
+The Ready list: 
+* Job_4 is running...
+Name:    Job_4 | proceedingTime:        4 | achieveTime:        1 
+Name:    Job_1 | proceedingTime:        4 | achieveTime:        2 
+Name:    Job_2 | proceedingTime:        5 | achieveTime:        2 
+
+Pool List: 
+Name:    Job_7 | proceedingTime:        3 | achieveTime:        3 
+Name:    Job_6 | proceedingTime:        2 | achieveTime:        4 
+Name:    Job_5 | proceedingTime:        3 | achieveTime:        4 
+Name:    Job_3 | proceedingTime:        4 | achieveTime:        4 
+
+
+
+---------------------------------------
+[CurTime]: 7
+[Channels_num]: 3
+---------------------------------------
+The Ready list: 
+* Job_4 is finished.
+* Job_1 is running...
+Name:    Job_1 | proceedingTime:        4 | achieveTime:        2 
+Name:    Job_2 | proceedingTime:        5 | achieveTime:        2 
+
+Pool List: 
+Name:    Job_7 | proceedingTime:        3 | achieveTime:        3 
+Name:    Job_6 | proceedingTime:        2 | achieveTime:        4 
+Name:    Job_5 | proceedingTime:        3 | achieveTime:        4 
+Name:    Job_3 | proceedingTime:        4 | achieveTime:        4 
+
+
+
+---------------------------------------
+[CurTime]: 8
+[Channels_num]: 3
+---------------------------------------
+The Ready list: 
+* Job_1 is running...
+Name:    Job_1 | proceedingTime:        4 | achieveTime:        2 
+Name:    Job_2 | proceedingTime:        5 | achieveTime:        2 
+Name:    Job_7 | proceedingTime:        3 | achieveTime:        3 
+
+Pool List: 
+Name:    Job_6 | proceedingTime:        2 | achieveTime:        4 
+Name:    Job_5 | proceedingTime:        3 | achieveTime:        4 
+Name:    Job_3 | proceedingTime:        4 | achieveTime:        4 
+
+
+
+---------------------------------------
+[CurTime]: 9
+[Channels_num]: 3
+---------------------------------------
+The Ready list: 
+* Job_1 is running...
+Name:    Job_1 | proceedingTime:        4 | achieveTime:        2 
+Name:    Job_2 | proceedingTime:        5 | achieveTime:        2 
+Name:    Job_7 | proceedingTime:        3 | achieveTime:        3 
+
+Pool List: 
+Name:    Job_6 | proceedingTime:        2 | achieveTime:        4 
+Name:    Job_5 | proceedingTime:        3 | achieveTime:        4 
+Name:    Job_3 | proceedingTime:        4 | achieveTime:        4 
+
+
+
+---------------------------------------
+[CurTime]: 10
+[Channels_num]: 3
+---------------------------------------
+The Ready list: 
+* Job_1 is running...
+Name:    Job_1 | proceedingTime:        4 | achieveTime:        2 
+Name:    Job_2 | proceedingTime:        5 | achieveTime:        2 
+Name:    Job_7 | proceedingTime:        3 | achieveTime:        3 
+
+Pool List: 
+Name:    Job_6 | proceedingTime:        2 | achieveTime:        4 
+Name:    Job_5 | proceedingTime:        3 | achieveTime:        4 
+Name:    Job_3 | proceedingTime:        4 | achieveTime:        4 
+
+
+
+---------------------------------------
+[CurTime]: 11
+[Channels_num]: 3
+---------------------------------------
+The Ready list: 
+* Job_1 is finished.
+* Job_2 is running...
+Name:    Job_2 | proceedingTime:        5 | achieveTime:        2 
+Name:    Job_7 | proceedingTime:        3 | achieveTime:        3 
+
+Pool List: 
+Name:    Job_6 | proceedingTime:        2 | achieveTime:        4 
+Name:    Job_5 | proceedingTime:        3 | achieveTime:        4 
+Name:    Job_3 | proceedingTime:        4 | achieveTime:        4 
+
+
+
+---------------------------------------
+[CurTime]: 12
+[Channels_num]: 3
+---------------------------------------
+The Ready list: 
+* Job_2 is running...
+Name:    Job_2 | proceedingTime:        5 | achieveTime:        2 
+Name:    Job_7 | proceedingTime:        3 | achieveTime:        3 
+Name:    Job_6 | proceedingTime:        2 | achieveTime:        4 
+
+Pool List: 
+Name:    Job_5 | proceedingTime:        3 | achieveTime:        4 
+Name:    Job_3 | proceedingTime:        4 | achieveTime:        4 
+
+
+
+---------------------------------------
+[CurTime]: 13
+[Channels_num]: 3
+---------------------------------------
+The Ready list: 
+* Job_2 is running...
+Name:    Job_2 | proceedingTime:        5 | achieveTime:        2 
+Name:    Job_7 | proceedingTime:        3 | achieveTime:        3 
+Name:    Job_6 | proceedingTime:        2 | achieveTime:        4 
+
+Pool List: 
+Name:    Job_5 | proceedingTime:        3 | achieveTime:        4 
+Name:    Job_3 | proceedingTime:        4 | achieveTime:        4 
+
+
+
+---------------------------------------
+[CurTime]: 14
+[Channels_num]: 3
+---------------------------------------
+The Ready list: 
+* Job_2 is running...
+Name:    Job_2 | proceedingTime:        5 | achieveTime:        2 
+Name:    Job_7 | proceedingTime:        3 | achieveTime:        3 
+Name:    Job_6 | proceedingTime:        2 | achieveTime:        4 
+
+Pool List: 
+Name:    Job_5 | proceedingTime:        3 | achieveTime:        4 
+Name:    Job_3 | proceedingTime:        4 | achieveTime:        4 
+
+
+
+---------------------------------------
+[CurTime]: 15
+[Channels_num]: 3
+---------------------------------------
+The Ready list: 
+* Job_2 is running...
+Name:    Job_2 | proceedingTime:        5 | achieveTime:        2 
+Name:    Job_7 | proceedingTime:        3 | achieveTime:        3 
+Name:    Job_6 | proceedingTime:        2 | achieveTime:        4 
+
+Pool List: 
+Name:    Job_5 | proceedingTime:        3 | achieveTime:        4 
+Name:    Job_3 | proceedingTime:        4 | achieveTime:        4 
+
+
+
+---------------------------------------
+[CurTime]: 16
+[Channels_num]: 3
+---------------------------------------
+The Ready list: 
+* Job_2 is finished.
+* Job_7 is running...
+Name:    Job_7 | proceedingTime:        3 | achieveTime:        3 
+Name:    Job_6 | proceedingTime:        2 | achieveTime:        4 
+
+Pool List: 
+Name:    Job_5 | proceedingTime:        3 | achieveTime:        4 
+Name:    Job_3 | proceedingTime:        4 | achieveTime:        4 
+
+
+
+---------------------------------------
+[CurTime]: 17
+[Channels_num]: 3
+---------------------------------------
+The Ready list: 
+* Job_7 is running...
+Name:    Job_7 | proceedingTime:        3 | achieveTime:        3 
+Name:    Job_6 | proceedingTime:        2 | achieveTime:        4 
+Name:    Job_5 | proceedingTime:        3 | achieveTime:        4 
+
+Pool List: 
+Name:    Job_3 | proceedingTime:        4 | achieveTime:        4 
+
+
+
+---------------------------------------
+[CurTime]: 18
+[Channels_num]: 3
+---------------------------------------
+The Ready list: 
+* Job_7 is running...
+Name:    Job_7 | proceedingTime:        3 | achieveTime:        3 
+Name:    Job_6 | proceedingTime:        2 | achieveTime:        4 
+Name:    Job_5 | proceedingTime:        3 | achieveTime:        4 
+
+Pool List: 
+Name:    Job_3 | proceedingTime:        4 | achieveTime:        4 
+
+
+
+---------------------------------------
+[CurTime]: 19
+[Channels_num]: 3
+---------------------------------------
+The Ready list: 
+* Job_7 is finished.
+* Job_6 is running...
+Name:    Job_6 | proceedingTime:        2 | achieveTime:        4 
+Name:    Job_5 | proceedingTime:        3 | achieveTime:        4 
+
+Pool List: 
+Name:    Job_3 | proceedingTime:        4 | achieveTime:        4 
+
+
+
+---------------------------------------
+[CurTime]: 20
+[Channels_num]: 3
+---------------------------------------
+The Ready list: 
+* Job_6 is running...
+Name:    Job_6 | proceedingTime:        2 | achieveTime:        4 
+Name:    Job_5 | proceedingTime:        3 | achieveTime:        4 
+Name:    Job_3 | proceedingTime:        4 | achieveTime:        4 
+
+Pool List: 
+Empty.
+
+
+
+---------------------------------------
+[CurTime]: 21
+[Channels_num]: 3
+---------------------------------------
+The Ready list: 
+* Job_6 is finished.
+* Job_5 is running...
+Name:    Job_5 | proceedingTime:        3 | achieveTime:        4 
+Name:    Job_3 | proceedingTime:        4 | achieveTime:        4 
+
+Pool List: 
+Empty.
+
+
+
+---------------------------------------
+[CurTime]: 22
+[Channels_num]: 3
+---------------------------------------
+The Ready list: 
+* Job_5 is running...
+Name:    Job_5 | proceedingTime:        3 | achieveTime:        4 
+Name:    Job_3 | proceedingTime:        4 | achieveTime:        4 
+
+Pool List: 
+Empty.
+
+
+
+---------------------------------------
+[CurTime]: 23
+[Channels_num]: 3
+---------------------------------------
+The Ready list: 
+* Job_5 is running...
+Name:    Job_5 | proceedingTime:        3 | achieveTime:        4 
+Name:    Job_3 | proceedingTime:        4 | achieveTime:        4 
+
+Pool List: 
+Empty.
+
+
+
+---------------------------------------
+[CurTime]: 24
+[Channels_num]: 3
+---------------------------------------
+The Ready list: 
+* Job_5 is finished.
+* Job_3 is running...
+Name:    Job_3 | proceedingTime:        4 | achieveTime:        4 
+
+Pool List: 
+Empty.
+
+
+
+---------------------------------------
+[CurTime]: 25
+[Channels_num]: 3
+---------------------------------------
+The Ready list: 
+* Job_3 is running...
+Name:    Job_3 | proceedingTime:        4 | achieveTime:        4 
+
+Pool List: 
+Empty.
+
+
+
+---------------------------------------
+[CurTime]: 26
+[Channels_num]: 3
+---------------------------------------
+The Ready list: 
+* Job_3 is running...
+Name:    Job_3 | proceedingTime:        4 | achieveTime:        4 
+
+Pool List: 
+Empty.
+
+
+
+---------------------------------------
+[CurTime]: 27
+[Channels_num]: 3
+---------------------------------------
+The Ready list: 
+* Job_3 is running...
+Name:    Job_3 | proceedingTime:        4 | achieveTime:        4 
+
+Pool List: 
+Empty.
+
+
+
+---------------------------------------
+[CurTime]: 28
+[Channels_num]: 3
+---------------------------------------
+The Ready list: 
+* Job_3 is finished.
+No more jobs.
+
+Pool List: 
+Empty.
+-------------------------------------------------------------
+Generate Random Process List:
+Name: Process_0 | proceedingTime: 1 | status: R
+Name: Process_1 | proceedingTime: 1 | status: R
+Name: Process_2 | proceedingTime: 4 | status: R
+Name: Process_3 | proceedingTime: 2 | status: R
+Name: Process_4 | proceedingTime: 2 | status: R
+Name: Process_5 | proceedingTime: 1 | status: R
+Name: Process_6 | proceedingTime: 2 | status: R
+Name: Process_7 | proceedingTime: 4 | status: R
+Name: Process_8 | proceedingTime: 3 | status: R
+Name: Process_9 | proceedingTime: 1 | status: R
+---------------------------------
+Process List:
+PCB List: 
+Name: Process_0 | proceedingTime: 1 | status: R
+Name: Process_1 | proceedingTime: 1 | status: R
+Name: Process_2 | proceedingTime: 4 | status: R
+Name: Process_3 | proceedingTime: 2 | status: R
+Name: Process_4 | proceedingTime: 2 | status: R
+Name: Process_5 | proceedingTime: 1 | status: R
+Name: Process_6 | proceedingTime: 2 | status: R
+Name: Process_7 | proceedingTime: 4 | status: R
+Name: Process_8 | proceedingTime: 3 | status: R
+Name: Process_9 | proceedingTime: 1 | status: R
+
+
+
+[CurTime]: 0
+* Process_0 is Running...
+* Process_0 is Finished.
+PCB List: 
+Name: Process_0 | proceedingTime: 0 | status: C
+Name: Process_1 | proceedingTime: 1 | status: R
+Name: Process_2 | proceedingTime: 4 | status: R
+Name: Process_3 | proceedingTime: 2 | status: R
+Name: Process_4 | proceedingTime: 2 | status: R
+Name: Process_5 | proceedingTime: 1 | status: R
+Name: Process_6 | proceedingTime: 2 | status: R
+Name: Process_7 | proceedingTime: 4 | status: R
+Name: Process_8 | proceedingTime: 3 | status: R
+Name: Process_9 | proceedingTime: 1 | status: R
+
+
+
+[CurTime]: 1
+* Process_1 is Running...
+* Process_1 is Finished.
+PCB List: 
+Name: Process_1 | proceedingTime: 0 | status: C
+Name: Process_2 | proceedingTime: 4 | status: R
+Name: Process_3 | proceedingTime: 2 | status: R
+Name: Process_4 | proceedingTime: 2 | status: R
+Name: Process_5 | proceedingTime: 1 | status: R
+Name: Process_6 | proceedingTime: 2 | status: R
+Name: Process_7 | proceedingTime: 4 | status: R
+Name: Process_8 | proceedingTime: 3 | status: R
+Name: Process_9 | proceedingTime: 1 | status: R
+
+
+
+[CurTime]: 2
+* Process_2 is Running...
+PCB List: 
+Name: Process_2 | proceedingTime: 3 | status: R
+Name: Process_3 | proceedingTime: 2 | status: R
+Name: Process_4 | proceedingTime: 2 | status: R
+Name: Process_5 | proceedingTime: 1 | status: R
+Name: Process_6 | proceedingTime: 2 | status: R
+Name: Process_7 | proceedingTime: 4 | status: R
+Name: Process_8 | proceedingTime: 3 | status: R
+Name: Process_9 | proceedingTime: 1 | status: R
+
+
+
+[CurTime]: 3
+* Process_3 is Running...
+PCB List: 
+Name: Process_3 | proceedingTime: 1 | status: R
+Name: Process_4 | proceedingTime: 2 | status: R
+Name: Process_5 | proceedingTime: 1 | status: R
+Name: Process_6 | proceedingTime: 2 | status: R
+Name: Process_7 | proceedingTime: 4 | status: R
+Name: Process_8 | proceedingTime: 3 | status: R
+Name: Process_9 | proceedingTime: 1 | status: R
+Name: Process_2 | proceedingTime: 3 | status: R
+
+
+
+[CurTime]: 4
+* Process_4 is Running...
+PCB List: 
+Name: Process_4 | proceedingTime: 1 | status: R
+Name: Process_5 | proceedingTime: 1 | status: R
+Name: Process_6 | proceedingTime: 2 | status: R
+Name: Process_7 | proceedingTime: 4 | status: R
+Name: Process_8 | proceedingTime: 3 | status: R
+Name: Process_9 | proceedingTime: 1 | status: R
+Name: Process_2 | proceedingTime: 3 | status: R
+Name: Process_3 | proceedingTime: 1 | status: R
+
+
+
+[CurTime]: 5
+* Process_5 is Running...
+* Process_5 is Finished.
+PCB List: 
+Name: Process_5 | proceedingTime: 0 | status: C
+Name: Process_6 | proceedingTime: 2 | status: R
+Name: Process_7 | proceedingTime: 4 | status: R
+Name: Process_8 | proceedingTime: 3 | status: R
+Name: Process_9 | proceedingTime: 1 | status: R
+Name: Process_2 | proceedingTime: 3 | status: R
+Name: Process_3 | proceedingTime: 1 | status: R
+Name: Process_4 | proceedingTime: 1 | status: R
+
+
+
+[CurTime]: 6
+* Process_6 is Running...
+PCB List: 
+Name: Process_6 | proceedingTime: 1 | status: R
+Name: Process_7 | proceedingTime: 4 | status: R
+Name: Process_8 | proceedingTime: 3 | status: R
+Name: Process_9 | proceedingTime: 1 | status: R
+Name: Process_2 | proceedingTime: 3 | status: R
+Name: Process_3 | proceedingTime: 1 | status: R
+Name: Process_4 | proceedingTime: 1 | status: R
+
+
+
+[CurTime]: 7
+* Process_7 is Running...
+PCB List: 
+Name: Process_7 | proceedingTime: 3 | status: R
+Name: Process_8 | proceedingTime: 3 | status: R
+Name: Process_9 | proceedingTime: 1 | status: R
+Name: Process_2 | proceedingTime: 3 | status: R
+Name: Process_3 | proceedingTime: 1 | status: R
+Name: Process_4 | proceedingTime: 1 | status: R
+Name: Process_6 | proceedingTime: 1 | status: R
+
+
+
+[CurTime]: 8
+* Process_8 is Running...
+PCB List: 
+Name: Process_8 | proceedingTime: 2 | status: R
+Name: Process_9 | proceedingTime: 1 | status: R
+Name: Process_2 | proceedingTime: 3 | status: R
+Name: Process_3 | proceedingTime: 1 | status: R
+Name: Process_4 | proceedingTime: 1 | status: R
+Name: Process_6 | proceedingTime: 1 | status: R
+Name: Process_7 | proceedingTime: 3 | status: R
+
+
+
+[CurTime]: 9
+* Process_9 is Running...
+* Process_9 is Finished.
+PCB List: 
+Name: Process_9 | proceedingTime: 0 | status: C
+Name: Process_2 | proceedingTime: 3 | status: R
+Name: Process_3 | proceedingTime: 1 | status: R
+Name: Process_4 | proceedingTime: 1 | status: R
+Name: Process_6 | proceedingTime: 1 | status: R
+Name: Process_7 | proceedingTime: 3 | status: R
+Name: Process_8 | proceedingTime: 2 | status: R
+
+
+
+[CurTime]: 10
+* Process_2 is Running...
+PCB List: 
+Name: Process_2 | proceedingTime: 2 | status: R
+Name: Process_3 | proceedingTime: 1 | status: R
+Name: Process_4 | proceedingTime: 1 | status: R
+Name: Process_6 | proceedingTime: 1 | status: R
+Name: Process_7 | proceedingTime: 3 | status: R
+Name: Process_8 | proceedingTime: 2 | status: R
+
+
+
+[CurTime]: 11
+* Process_3 is Running...
+* Process_3 is Finished.
+PCB List: 
+Name: Process_3 | proceedingTime: 0 | status: C
+Name: Process_4 | proceedingTime: 1 | status: R
+Name: Process_6 | proceedingTime: 1 | status: R
+Name: Process_7 | proceedingTime: 3 | status: R
+Name: Process_8 | proceedingTime: 2 | status: R
+Name: Process_2 | proceedingTime: 2 | status: R
+
+
+
+[CurTime]: 12
+* Process_4 is Running...
+* Process_4 is Finished.
+PCB List: 
+Name: Process_4 | proceedingTime: 0 | status: C
+Name: Process_6 | proceedingTime: 1 | status: R
+Name: Process_7 | proceedingTime: 3 | status: R
+Name: Process_8 | proceedingTime: 2 | status: R
+Name: Process_2 | proceedingTime: 2 | status: R
+
+
+
+[CurTime]: 13
+* Process_6 is Running...
+* Process_6 is Finished.
+PCB List: 
+Name: Process_6 | proceedingTime: 0 | status: C
+Name: Process_7 | proceedingTime: 3 | status: R
+Name: Process_8 | proceedingTime: 2 | status: R
+Name: Process_2 | proceedingTime: 2 | status: R
+
+
+
+[CurTime]: 14
+* Process_7 is Running...
+PCB List: 
+Name: Process_7 | proceedingTime: 2 | status: R
+Name: Process_8 | proceedingTime: 2 | status: R
+Name: Process_2 | proceedingTime: 2 | status: R
+
+
+
+[CurTime]: 15
+* Process_8 is Running...
+PCB List: 
+Name: Process_8 | proceedingTime: 1 | status: R
+Name: Process_2 | proceedingTime: 2 | status: R
+Name: Process_7 | proceedingTime: 2 | status: R
+
+
+
+[CurTime]: 16
+* Process_2 is Running...
+PCB List: 
+Name: Process_2 | proceedingTime: 1 | status: R
+Name: Process_7 | proceedingTime: 2 | status: R
+Name: Process_8 | proceedingTime: 1 | status: R
+
+
+
+[CurTime]: 17
+* Process_7 is Running...
+PCB List: 
+Name: Process_7 | proceedingTime: 1 | status: R
+Name: Process_8 | proceedingTime: 1 | status: R
+Name: Process_2 | proceedingTime: 1 | status: R
+
+
+
+[CurTime]: 18
+* Process_8 is Running...
+* Process_8 is Finished.
+PCB List: 
+Name: Process_8 | proceedingTime: 0 | status: C
+Name: Process_2 | proceedingTime: 1 | status: R
+Name: Process_7 | proceedingTime: 1 | status: R
+
+
+
+[CurTime]: 19
+* Process_2 is Running...
+* Process_2 is Finished.
+PCB List: 
+Name: Process_2 | proceedingTime: 0 | status: C
+Name: Process_7 | proceedingTime: 1 | status: R
+
+
+
+[CurTime]: 20
+* Process_7 is Running...
+* Process_7 is Finished.
+PCB List: 
+Name: Process_7 | proceedingTime: 0 | status: C
+Finished.

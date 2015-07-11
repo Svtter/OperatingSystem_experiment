@@ -1,0 +1,76 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CHANNELS_NUM	part1.cpp	/^const int CHANNELS_NUM = 3;$/;"	v
+DispatchList	part1.cpp	/^        DispatchList()$/;"	f	class:DispatchList
+DispatchList	part1.cpp	/^class DispatchList$/;"	c	file:
+JCB_queue	part1.cpp	/^class JCB_queue : public DispatchList$/;"	c	file:
+Job	part1.cpp	/^        Job(char *name, int priority, int proceedingTime, int achieveTime)$/;"	f	class:Job
+Job	part1.cpp	/^        Job(char *name, int priority, int proceedingTime, int achieveTime,$/;"	f	class:Job
+Job	part1.cpp	/^        Job(const Job &old)$/;"	f	class:Job
+Job	part1.cpp	/^        Job(void)$/;"	f	class:Job
+Job	part1.cpp	/^class Job$/;"	c	file:
+MAX_ACHIEVE_TIME	part1.cpp	/^const int MAX_ACHIEVE_TIME = 5;$/;"	v
+MAX_PRIORITY	part1.cpp	/^const int MAX_PRIORITY = 5;$/;"	v
+MAX_PROCEEDING_TIME	part1.cpp	/^const int MAX_PROCEEDING_TIME = 5;$/;"	v
+MAX_PROCESS	part1.cpp	/^const int MAX_PROCESS = 10;$/;"	v
+MAX_WORK	part1.cpp	/^const int MAX_WORK = 8;$/;"	v
+PCB	part1.cpp	/^        PCB()$/;"	f	class:PCB
+PCB	part1.cpp	/^class PCB$/;"	c	file:
+PCB_queue	part1.cpp	/^        PCB_queue()$/;"	f	class:PCB_queue
+PCB_queue	part1.cpp	/^class PCB_queue$/;"	c	file:
+Running	part1.cpp	/^        void Running()$/;"	f	class:DispatchList
+Running	part1.cpp	/^        void Running()$/;"	f	class:JCB_queue
+achieveTime	part1.cpp	/^        int achieveTime; \/\/ relative time$/;"	m	class:Job	file:
+addBack	part1.cpp	/^        void addBack(Job *next)$/;"	f	class:Job
+baseOutput	part1.cpp	/^        void baseOutput()$/;"	f	class:DispatchList
+baseOutput	part1.cpp	/^        void baseOutput()$/;"	f	class:JCB_queue
+checkList	part1.cpp	/^        void checkList(int &finished)$/;"	f	class:DispatchList
+checkList	part1.cpp	/^        void checkList(int &finished)$/;"	f	class:JCB_queue
+curChannel	part1.cpp	/^        int curChannel;$/;"	m	class:JCB_queue	file:
+curRunningTime	part1.cpp	/^        int curRunningTime;$/;"	m	class:DispatchList	file:
+curTime	part1.cpp	/^        int curTime;$/;"	m	class:DispatchList	file:
+dlist	part1.cpp	/^        DispatchList dlist;$/;"	m	class:JCB_queue	file:
+empty	part1.cpp	/^        bool empty()$/;"	f	class:DispatchList
+front	part1.cpp	/^        Job *front, *rear;$/;"	m	class:DispatchList	file:
+front	part1.cpp	/^        PCB *front, *rear;$/;"	m	class:PCB_queue	file:
+genList	part1.cpp	/^        void genList()$/;"	f	class:DispatchList
+genList	part1.cpp	/^        void genList()$/;"	f	class:JCB_queue
+genList	part1.cpp	/^        void genList()$/;"	f	class:PCB_queue
+genNewName	part1.cpp	/^        void genNewName(char *name, int i)$/;"	f	class:Job
+genNewName	part1.cpp	/^        void genNewName(char *name, int i)$/;"	f	class:PCB
+genRand	part1.cpp	/^        void genRand(int i)$/;"	f	class:PCB
+genRandJob	part1.cpp	/^        void genRandJob(int i)$/;"	f	class:Job
+genRandList	part1.cpp	/^        void genRandList()$/;"	f	class:DispatchList
+genRandList	part1.cpp	/^        void genRandList()$/;"	f	class:PCB_queue
+getNext	part1.cpp	/^        Job getNext(void)$/;"	f	class:Job
+list	part1.cpp	/^        Job list[MAX_WORK];$/;"	m	class:DispatchList	file:
+list	part1.cpp	/^        PCB list[MAX_PROCESS];$/;"	m	class:PCB_queue	file:
+main	part1.cpp	/^int main()$/;"	f
+name	part1.cpp	/^        char *name;$/;"	m	class:Job	file:
+name	part1.cpp	/^        char *name;$/;"	m	class:PCB	file:
+next	part1.cpp	/^        Job *next;$/;"	m	class:Job	file:
+next	part1.cpp	/^        PCB *next;$/;"	m	class:PCB	file:
+output	part1.cpp	/^        void output()$/;"	f	class:DispatchList
+output	part1.cpp	/^        void output()$/;"	f	class:PCB
+output	part1.cpp	/^        void output()$/;"	f	class:PCB_queue
+output	part1.cpp	/^        void output(void)$/;"	f	class:Job
+pcbNum	part1.cpp	/^        int pcbNum;$/;"	m	class:PCB_queue	file:
+pop	part1.cpp	/^        bool pop()$/;"	f	class:DispatchList
+pop	part1.cpp	/^        void pop()$/;"	f	class:PCB_queue
+priority	part1.cpp	/^        int priority;$/;"	m	class:Job	file:
+proceedingTime	part1.cpp	/^        int proceedingTime;$/;"	m	class:Job	file:
+ptime	part1.cpp	/^        int ptime; \/\/ proceeding time$/;"	m	class:PCB	file:
+push	part1.cpp	/^        void push(Job *next)$/;"	f	class:DispatchList
+push	part1.cpp	/^        void push(Job *next)$/;"	f	class:JCB_queue
+push	part1.cpp	/^        void push(PCB *next)$/;"	f	class:PCB_queue
+rear	part1.cpp	/^        Job *front, *rear;$/;"	m	class:DispatchList	file:
+rear	part1.cpp	/^        PCB *front, *rear;$/;"	m	class:PCB_queue	file:
+status	part1.cpp	/^        char status; \/\/ 'R', 'C'$/;"	m	class:PCB	file:
+top	part1.cpp	/^        Job top()$/;"	f	class:DispatchList
+top	part1.cpp	/^        PCB top()$/;"	f	class:PCB_queue
+traversal	part1.cpp	/^        int traversal()$/;"	f	class:DispatchList
+workNum	part1.cpp	/^        int workNum;$/;"	m	class:DispatchList	file:
